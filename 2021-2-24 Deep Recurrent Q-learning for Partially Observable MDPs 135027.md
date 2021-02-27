@@ -41,9 +41,8 @@ can be arbitrarily bad since Q(o,a|θ)≠Q(s,a|θ). DRQN can narrow the gap Q(o,
 
 ##### 3. DRQN Architecture
 
+![111](graph/2.24.2021/image-20210227131514029.png)
 
-
-<img src="C:\Users\ZXH18\AppData\Roaming\Typora\typora-user-images\image-20210227131514029.png" alt="image-20210227131514029" style="zoom:50%;" />
 
 #####  4. Stable Recurrent Updates
 
