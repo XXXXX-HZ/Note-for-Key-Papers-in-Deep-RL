@@ -25,7 +25,7 @@ the max Q-value over all actions a' in the resulting state s'：
 
 Q（s,a) : = Q(s,a)+ α（r + γ max Q(s', a') - Q(s, a))
 
-![image](img/2.24.2021/image-20210227115101459.png)；
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/2.24.2021/image-20210227115101459.png)；
 
 
 
@@ -43,7 +43,8 @@ can be arbitrarily bad since Q(o,a|θ)≠Q(s,a|θ). DRQN can narrow the gap Q(o,
 
 
 
-<img src="C:\Users\ZXH18\OneDrive\Desktop\新建文件夹\2.24.2021\image-20210227131514029.png" alt="image-20210227131514029" style="zoom:50%;" />
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/2.24.2021/image-20210227131514029.png)；
+
 
 #####  4. Stable Recurrent Updates
 
