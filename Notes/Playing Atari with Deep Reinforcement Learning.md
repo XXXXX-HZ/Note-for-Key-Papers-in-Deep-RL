@@ -34,10 +34,10 @@ smooths the training distribution over many past behaviors.
 
 #### 4.Deep Reinforcement learning
 
- ![image-20210227214429707](C:\Users\ZXH18\OneDrive\Desktop\graph\2.25.2021\image-20210227214429707.png)
+ ![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/2.25.2021/image-20210227214429707.png)
 
 Experience Replay:
 
-we store the agent’s experiences at each time-step, <img src="C:\Users\ZXH18\OneDrive\Desktop\graph\2.25.2021\image-20210227220546854.png" alt="image-20210227220546854" style="zoom:50%;" /> in a data-set <img src="C:\Users\ZXH18\OneDrive\Desktop\graph\2.25.2021\image-20210227220858477.png" alt="image-20210227220858477" style="zoom: 50%;" /> , pooled over many episodes into a replay memory. During the inner
+we store the agent’s experiences at each time-step,  ![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/2.25.2021/image-20210227220546854.png) in a data-set  ![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/2.25.2021/image-20210227220858477.png) , pooled over many episodes into a replay memory. During the inner
 loop of the algorithm, we apply Q-learning updates, or minibatch updates, to samples of experience, drawn at random from the pool of stored samples. After performing experience replay, the agent selects and executes an action according to  greedy policy. 
 
