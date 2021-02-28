@@ -25,7 +25,8 @@ the max Q-value over all actions a' in the resulting state s'：
 
 Q（s,a) : = Q(s,a)+ α（r + γ max Q(s', a') - Q(s, a))
 
-> <img src="C:\Users\ZXH18\OneDrive\Desktop\新建文件夹\2.24.2021\image-20210227115101459.png" alt="image-20210227115101459" style="zoom: 50%;" />
+
+! [] (img/2.24.2021/image-20210227115101459.png)
 
 
 
