@@ -21,12 +21,12 @@ They  constructed a new algorithm we call Double DQN which not only yields more 
 
 #### 4. Double DQN
 
-![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/2.27.2021/1.png)；
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/2.27.2021/1.png)
 
 The idea of Double Q-learning is to reduce overestimations by decomposing the max operation in the target into **action**
 **selection** and **action evaluation**.
 
-![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/2.27.2021/2.png)；
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/2.27.2021/2.png)
 
  The function Q: the one we use to update parameter, is action selector
 
