@@ -36,7 +36,7 @@ Greedy prioritization focuses on a small subset of the experience,This lack of d
 
 2.Guarante a non-zero probability **even for the lowest-priority** transition. Concretely, we define the probability of sampling transition i as
 
-![image-20210301120046951](C:\Users\ZXH18\OneDrive\Desktop\img\1.png)
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.1.2021/1.png)
 
 where pi > 0 is the priority of transition i. The exponent α determines how much prioritization is used, with α = 0 corresponding to the uniform case. when α increase, the transition with large TD-error will have higher possibility to be sampled. 
 
@@ -46,4 +46,4 @@ Prioritized replay introduces bias because it changes this
 distribution in an uncontrolled fashion, and therefore changes the solution that the estimates will converge to (even if the policy and state distribution are fixed). We can correct this bias by using
 importance-sampling (IS) weights:
 
-![image-20210301120642888](C:\Users\ZXH18\OneDrive\Desktop\img\3.1.2021\2.png)
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.1.2021/2.png)
