@@ -14,7 +14,8 @@ Combine the actor-critic approach with insights from the recent success of Deep 
 
 Deep DPG (DDPG) can learn competitive policies for all of
 our tasks using low-dimensional observations (e.g. cartesian coordinates or joint angles) using the same hyper-parameters and network structure.
-
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.7.2021/2.png)；
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.7.2021/3.png)；
 #### 4.Implemention
 
 ![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.7.2021/1.png)；
