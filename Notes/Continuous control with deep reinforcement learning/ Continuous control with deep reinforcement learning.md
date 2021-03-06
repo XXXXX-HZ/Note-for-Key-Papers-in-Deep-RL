@@ -1,4 +1,5 @@
-## CONTINUOUS CONTROL WITH DEEP REINFORCEMENT LEARNING
+## Continuous control with deep reinforcement learning
+
 
 #### 1. Problem
 
