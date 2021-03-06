@@ -12,14 +12,13 @@ For continuous actions, the **Stochastic PG** in the past requires the expectati
 
 1.perfomence objective: (maximizes the cumulative discounted reward)
 
-![1](C:\Users\ZXH18\OneDrive\Desktop\img\3.6.2021\1.png)
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.6.2021/1.png)；
 
 2.**Stochastic PG**
 
 And then we take the derivative of (1)
 
-![2](C:\Users\ZXH18\OneDrive\Desktop\img\3.6.2021\2.png)
-
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.6.2021/2.png)；
 
 
 2.1 On-policy
@@ -36,7 +35,7 @@ The true action-value Q is actually estimated with the future reward. Each calcu
 
 **Off-policy means that the strategy used for data training is not the same as the current strategy to be updated**. Suppose the strategy used for data is β, while the current strategy to be trained is π. Importance sampling is used here to obtain the new strategy gradient
 
-![3](C:\Users\ZXH18\OneDrive\Desktop\img\3.6.2021\3.png)
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.6.2021/3.png)；
 
 **importance sampling**： In  sampling, states and actions can only meet the distribution in the data set, that is, the distribution of actions is about β , while the gradient required in our objective function is about π, so the expectation about β can be obtained by multiplying and excluding one β at the same time. importance sampling.
 
@@ -46,11 +45,13 @@ The true action-value Q is actually estimated with the future reward. Each calcu
 
 The critic uses Sarsa updates to estimate the action-value function.
 
-![4](C:\Users\ZXH18\OneDrive\Desktop\img\3.6.2021\4.png)
+
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.6.2021/4.png)；
 
 3.2 Off-policy
 
 Basically the same, except for selecting  the different state in Q (Note that: The difference between 11 and 16)
 
-![5](C:\Users\ZXH18\OneDrive\Desktop\img\3.6.2021\5.png)
+
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.6.2021/5.png)；
 
