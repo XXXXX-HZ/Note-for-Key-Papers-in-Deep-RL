@@ -17,7 +17,8 @@ our tasks using low-dimensional observations (e.g. cartesian coordinates or join
 
 #### 4.Implemention
 
-![1](C:\Users\ZXH18\OneDrive\Desktop\img\3.7.2021\1.png)
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.7.2021/1.png)；
+
 
 The algorithm uses the actor-critic method in DQN2014 to build two neural networks, one actor function network ,one critic network.
 
