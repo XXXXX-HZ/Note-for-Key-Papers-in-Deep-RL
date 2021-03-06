@@ -16,9 +16,9 @@ DDPG（ actor- critics + DQN) also have Overestimation problem.
 
 Target function in Double DQN:
 
-![image-20210306205523005](C:\Users\ZXH18\OneDrive\Desktop\img\3.9.2021\1.png)
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.9.2021/1.png)
 
-![img](C:\Users\ZXH18\OneDrive\Desktop\img\3.9.2021\2.png)
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.9.2021/2.png)
 
 
 
@@ -44,7 +44,7 @@ Target Network: without target networks, the divergence that occurs is the resul
 
 ##### 2.3  Target Policy Smoothing Regularization
 
-![image-20210306214954557](C:\Users\ZXH18\OneDrive\Desktop\img\3.9.2021\3.png)
+![image](https://github.com/XXXXX-HZ/Note-for-Key-Papers-in-Deep-RL/blob/main/img/3.9.2021/3.png)
 
 By adding a small amount of random noise to the target
 policy.
